@@ -2,7 +2,7 @@
     require 'connection.php';
     $id = null;
     if ( !empty($_GET['id'])) {
-        $id = $_REQUEST['id'];
+        $id = $_GET['id'];
     }
      
     if ( null==$id ) {
